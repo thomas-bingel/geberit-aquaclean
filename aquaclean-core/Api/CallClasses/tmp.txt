@@ -1,0 +1,18 @@
+﻿[Api(Context = 1, Procedure = 0x05)]
+NodeList GetNodeList();
+
+[Api(Context = 1, Procedure = 0x08)]
+void SetActiveProfileSetting(int profileSettingId, object settingValue); 
+
+[Api(Context = 1, Procedure = 0x0E)]
+FirmwareVersionList GetFirmwareVersionList(object arg1, object arg2); 
+
+[Api(Context = 1, Procedure = 0x45)]
+StatisticsDescale GetStatisticsDescale();
+
+[Api(Context = 1, Procedure = 0x51)]
+[DeSerialize(Length = 2)]
+int GetStoredCommonSetting(int storedCommonSettingId);
+
+[Api(Context = 1, Procedure = 0x56)]
+void SetDeviceRegistrationLevel(int registrationLevel); // 257

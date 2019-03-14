@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>Geberit.AquaClean.Core</AssemblyName>
+    <RootNamespace>Geberit.AquaClean.Core</RootNamespace>
+  </PropertyGroup>
+
+</Project>
